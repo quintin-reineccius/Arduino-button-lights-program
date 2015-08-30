@@ -1,56 +1,56 @@
-int delay_value = 100;
-int led_pin7 = 7;
-int led_pin6 = 6;
-int led_pin5 = 5;
-int led_pin1 = 1;
-int led_pin0 = 0;
-int button_pin = A0;
+int ledPin7 = 7;
+int ledPin6 = 6;
+int ledPin5 = 5;
+int ledPin1 = 1;
+int ledPin0 = 0;
+int buttonPin = A0;
+int delayValue = 100;
 
 void setup() { 
-  pinMode(led_pin7, OUTPUT);
-  pinMode(led_pin6, OUTPUT);
-  pinMode(led_pin5, OUTPUT);
-  pinMode(led_pin1, OUTPUT);
-  pinMode(led_pin0, OUTPUT); 
-  pinMode(button_pin, INPUT); 
+  pinMode(ledPin7, OUTPUT);
+  pinMode(ledPin6, OUTPUT);
+  pinMode(ledPin5, OUTPUT);
+  pinMode(ledPin1, OUTPUT);
+  pinMode(ledPin0, OUTPUT); 
+  pinMode(buttonPin, INPUT); 
 }
 void loop() { 
-  int button_state = digitalRead(button_pin);
-  if (button_state == HIGH) { 
+  int buttonState = digitalRead(buttonPin);
+  if (buttonState == HIGH) { 
     digitalWrite(led_pin7, LOW);
-    delay(delay_value);
+    delay(delayValue);
     digitalWrite(led_pin7, HIGH);
     
     digitalWrite(led_pin6, LOW);
-    delay(delay_value);
+    delay(delayValue);
     digitalWrite(led_pin6, HIGH);
     
     digitalWrite(led_pin5, LOW);
-    delay(delay_value);
+    delay(delayValue);
     digitalWrite(led_pin5, HIGH);
     
-    digitalWrite(led_pin1, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin1, HIGH);
+    digitalWrite(ledPin1, LOW);
+    delay(delayValue);
+    digitalWrite(ledPin1, HIGH);
    
-    digitalWrite(led_pin0, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin0, HIGH);
+    digitalWrite(ledPin0, LOW);
+    delay(delayValue);
+    digitalWrite(ledPin0, HIGH);
 
-    digitalWrite(led_pin1, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin1, HIGH);
+    digitalWrite(ledPin1, LOW);
+    delay(delayValue);
+    digitalWrite(ledPin1, HIGH);
     
-    digitalWrite(led_pin5, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin5, HIGH);
+    digitalWrite(ledPin5, LOW);
+    delay(delayValue);
+    digitalWrite(ledPin5, HIGH);
     
-    digitalWrite(led_pin6, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin6, HIGH);
+    digitalWrite(ledPin6, LOW);
+    delay(delayValue);
+    digitalWrite(ledPin6, HIGH);
     
-    digitalWrite(led_pin7, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin7, HIGH); 
+    digitalWrite(ledPin7, LOW);
+    delay(delayValue);
+    digitalWrite(ledPin7, HIGH); 
   }  
 }
