@@ -17,19 +17,18 @@ void setup() {
 void loop() { 
   int buttonState = digitalRead(buttonPin);
   if (buttonState == HIGH) { 
-    digitalWrite(led_pin7, LOW);
+    digitalWrite(ledPin7, LOW);
     delay(delayValue);
-    digitalWrite(led_pin7, HIGH);
+    digitalWrite(ledPin7, HIGH);
     
-    digitalWrite(led_pin6, LOW);
+    digitalWrite(ledPin6, LOW);
     delay(delayValue);
-    digitalWrite(led_pin6, HIGH);
+    digitalWrite(ledPin6, HIGH);
     
-    digitalWrite(led_pin5, LOW);
+    digitalWrite(ledPin5, LOW);
     delay(delayValue);
-    digitalWrite(led_pin5, HIGH);
+    digitalWrite(ledPin5, HIGH);
     
-<<<<<<< HEAD
     digitalWrite(ledPin1, LOW);
     delay(delayValue);
     digitalWrite(ledPin1, HIGH);
@@ -53,30 +52,5 @@ void loop() {
     digitalWrite(ledPin7, LOW);
     delay(delayValue);
     digitalWrite(ledPin7, HIGH); 
-=======
-    digitalWrite(led_pin1, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin1, HIGH);
-   
-    digitalWrite(led_pin0, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin0, HIGH);
-    
-    digitalWrite(led_pin1, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin1, HIGH);
-    
-    digitalWrite(led_pin5, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin5, HIGH);
-    
-    digitalWrite(led_pin6, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin6, HIGH);
-    
-    digitalWrite(led_pin7, LOW);
-    delay(delay_value);
-    digitalWrite(led_pin7, HIGH); 
->>>>>>> 0db9b119e1747d71c2ce41a5437cb8e3035c2013
   }  
 }
