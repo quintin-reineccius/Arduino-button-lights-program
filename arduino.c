@@ -21,22 +21,18 @@ void loop() {
     delay(delay_value);
     digitalWrite(led_pin7, HIGH);
     
-
     digitalWrite(led_pin6, LOW);
     delay(delay_value);
     digitalWrite(led_pin6, HIGH);
     
-
     digitalWrite(led_pin5, LOW);
     delay(delay_value);
     digitalWrite(led_pin5, HIGH);
     
-
     digitalWrite(led_pin1, LOW);
     delay(delay_value);
     digitalWrite(led_pin1, HIGH);
    
-
     digitalWrite(led_pin0, LOW);
     delay(delay_value);
     digitalWrite(led_pin0, HIGH);
@@ -45,17 +41,14 @@ void loop() {
     delay(delay_value);
     digitalWrite(led_pin1, HIGH);
     
-
     digitalWrite(led_pin5, LOW);
     delay(delay_value);
     digitalWrite(led_pin5, HIGH);
     
-
     digitalWrite(led_pin6, LOW);
     delay(delay_value);
     digitalWrite(led_pin6, HIGH);
     
-
     digitalWrite(led_pin7, LOW);
     delay(delay_value);
     digitalWrite(led_pin7, HIGH); 
